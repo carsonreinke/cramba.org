@@ -3447,7 +3447,7 @@ meta.foundation-mq-small {
     margin-right: 0; }
   
   body.home .hero {
-    padding: 150px 0; }
+    padding: 175px 0; }
     @media only screen and (max-width: 40em) {
       body.home .hero {
         padding: 0; } }
