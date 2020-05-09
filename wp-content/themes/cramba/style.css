@@ -6,6 +6,8 @@
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oxygen:wght@400;700&display=swap');
+
 /*--------------------------------------------------------------
 Variables
 --------------------------------------------------------------*/
@@ -48,7 +50,7 @@ meta.foundation-mq-small {
     color: #202223;
     padding: 0;
     margin: 0;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     line-height: 150%;
@@ -144,7 +146,7 @@ meta.foundation-mq-small {
     color: #202223;
     padding: 0;
     margin: 0;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     line-height: 150%;
@@ -1342,7 +1344,7 @@ meta.foundation-mq-small {
     color: #202223;
     padding: 0;
     margin: 0;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     line-height: 150%;
@@ -1562,7 +1564,7 @@ meta.foundation-mq-small {
   
   /* Default header styles */
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-style: normal;
     color: #202223;
@@ -1578,7 +1580,7 @@ meta.foundation-mq-small {
   h1 {
     color: #202223;
     font-size: 2.375rem;
-    font-family: "Playfair Display", "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-weight: 900; }
   
   h2 {
@@ -1751,7 +1753,7 @@ meta.foundation-mq-small {
     padding: 1.25rem 1.25rem 0 1.25rem;
     border-left: 2px solid #ddd;
     overflow: hidden;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-style: italic; }
     blockquote cite {
       display: block;
@@ -1869,7 +1871,7 @@ meta.foundation-mq-small {
     /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
     vertical-align: baseline;
     /* Improves appearance and consistency in all browsers */
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif; }
   
   button,
   a.button,
@@ -2082,7 +2084,7 @@ meta.foundation-mq-small {
     font-size: 1rem; }
   
   label {
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     color: #606365;
@@ -2104,7 +2106,7 @@ meta.foundation-mq-small {
   legend {
     color: #202223;
     font-size: 1rem;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 0 15px; }
@@ -2471,7 +2473,7 @@ meta.foundation-mq-small {
     margin: 0 0 1.5em;
     padding: 2rem; }
     .widget, .widget p, .widget ul, .widget ol {
-      font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Oxygen", "Open Sans", Arial, sans-serif;
       font-size: 1.125rem; }
   
   /* Make sure form fields fit in widgets */
@@ -2523,7 +2525,7 @@ meta.foundation-mq-small {
       width: 100%; }
   
   .widget-title {
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     position: relative;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -2760,7 +2762,7 @@ meta.foundation-mq-small {
   
   .entry-footer {
     color: #6a7174;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-size: 0.875rem;
     padding-top: 1em; }
     .entry-footer:before, .entry-footer:after {
@@ -2787,7 +2789,7 @@ meta.foundation-mq-small {
     padding-bottom: 1em;
     padding-bottom: 1rem;
     font-size: .9em;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif; }
     .entry-meta:before, .entry-meta:after {
       content: " ";
       display: table; }
@@ -2820,7 +2822,7 @@ meta.foundation-mq-small {
   .person-meta {
     margin-bottom: 1em;
     margin-bottom: 1rem;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif; }
     .event-meta .genericon, .event-meta .social-menu a, .social-menu .event-meta a,
     .sermon-meta .genericon,
     .sermon-meta .social-menu a,
@@ -2846,12 +2848,12 @@ meta.foundation-mq-small {
   .post-format {
     color: #62d7db;
     text-transform: uppercase;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: bold; }
   
   .more-link {
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -2988,7 +2990,7 @@ meta.foundation-mq-small {
         font-weight: bold; }
       .comment-list li .comment-author,
       .comment-list li .comment-metadata {
-        font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+        font-family: "Oxygen", "Open Sans", Arial, sans-serif; }
       .comment-list li .comment-metadata {
         margin-bottom: 1em;
         font-size: 0.8125rem;
@@ -3025,7 +3027,7 @@ meta.foundation-mq-small {
   
   #respond {
     margin-top: 10px;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif; }
     #respond h3#reply-title {
       font-size: 1.5em !important; }
     #respond .logged-in-as {
@@ -3296,7 +3298,7 @@ meta.foundation-mq-small {
         position: relative; } }
   
   .site-title {
-    font-family: "Playfair Display", "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-size: 1.125rem;
     font-size: 1.125rem;
     font-weight: 900;
@@ -3317,7 +3319,7 @@ meta.foundation-mq-small {
   .site-description {
     font-size: 14px;
     color: #fff;
-    font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Oxygen", "Open Sans", Arial, sans-serif;
     font-weight: 300; }
   
   .site-header {
@@ -3344,7 +3346,7 @@ meta.foundation-mq-small {
         color: white;
         margin-bottom: 0;
         text-align: center;
-        font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-family: "Oxygen", "Open Sans", Arial, sans-serif;
         font-weight: 400;
         text-transform: uppercase; }
   
@@ -3396,7 +3398,7 @@ meta.foundation-mq-small {
     .featured-content .entry-header .entry-title {
       font-size: 2.625rem;
       line-height: 1.2;
-      font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Oxygen", "Open Sans", Arial, sans-serif;
       font-weight: bold; }
     .featured-content .entry-header .entry-excerpt p {
       font-style: italic;
@@ -3411,7 +3413,7 @@ meta.foundation-mq-small {
       background-color: #62d7db;
       color: #fff;
       display: inline-block;
-      font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Oxygen", "Open Sans", Arial, sans-serif;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 0.8125rem;
@@ -3596,7 +3598,7 @@ meta.foundation-mq-small {
     .featured-content .entry-title {
       font-size: 2.625rem;
       line-height: 1.2;
-      font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Oxygen", "Open Sans", Arial, sans-serif;
       font-weight: bold; }
     .featured-content .entry-excerpt p {
       font-style: italic;
@@ -3609,7 +3611,7 @@ meta.foundation-mq-small {
       background-color: #62d7db;
       color: #fff;
       display: inline-block;
-      font-family: "Raleway", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "Oxygen", "Open Sans", Arial, sans-serif;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 0.8125rem;
