@@ -3355,7 +3355,6 @@ meta.foundation-mq-small {
     min-height: 86px; }
     @media only screen and (min-width: 61.063em) {
       .site-header-wrapper {
-        padding: 51px 0 0;
         min-height: 170px; } }
   
   .site-header-inner {
