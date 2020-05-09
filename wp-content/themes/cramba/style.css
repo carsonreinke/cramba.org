@@ -3332,13 +3332,7 @@ meta.foundation-mq-small {
       display: none; }
     .site-header .custom-logo {
       width: auto;
-      max-height: 40px; }
-      @media only screen and (min-width: 40.063em) {
-        .site-header .custom-logo {
-          max-height: 52px; } }
-      @media only screen and (min-width: 61.063em) {
-        .site-header .custom-logo {
-          max-height: 62px; } }
+      max-height: 100px; }
     .site-header .page-title-container {
       clear: both; }
       .site-header .page-title-container:before, .site-header .page-title-container:after {
