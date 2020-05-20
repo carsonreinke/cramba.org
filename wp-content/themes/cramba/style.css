@@ -2122,7 +2122,6 @@ meta.foundation-mq-small {
     display: block; }
     @media only screen and (max-width: 61.063em) {
       .main-navigation-container {
-        clear: both;
         z-index: 9999; } }
   
   .main-navigation {
