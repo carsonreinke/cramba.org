@@ -630,15 +630,6 @@ add_action( 'delete_category', 'primer_has_active_categories_reset' );
 add_action( 'save_post', 'primer_has_active_categories_reset' );
 
 /**
- * Child theme version.
- *
- * @since 1.0.0
- *
- * @var string
- */
-define( 'PRIMER_CHILD_VERSION', '1.1.3' );
-
-/**
  * Move some elements around.
  *
  * @action template_redirect
