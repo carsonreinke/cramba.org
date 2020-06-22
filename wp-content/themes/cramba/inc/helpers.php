@@ -161,11 +161,7 @@ function primer_is_amp() {
  */
 function primer_get_layout( $post_id = null ) {
 
-	global $primer_customizer_layouts;
-
-	$post_id = ( $post_id ) ? $post_id : get_queried_object_id();
-
-	return $primer_customizer_layouts->get_current_layout( $post_id );
+	return 'two-column-default';
 
 }
 
