@@ -25,27 +25,6 @@ class Primer_Customizer {
 		self::$stylesheet = get_stylesheet();
 
 		/**
-		 * Load Customizer Colors functionality.
-		 *
-		 * @since 1.0.0
-		 */
-		require_once get_template_directory() . '/inc/customizer/colors.php';
-
-		/**
-		 * Load Customizer Fonts functionality.
-		 *
-		 * @since 1.0.0
-		 */
-		require_once get_template_directory() . '/inc/customizer/fonts.php';
-
-		/**
-		 * Load Customizer Layouts functionality.
-		 *
-		 * @since 1.0.0
-		 */
-		require_once get_template_directory() . '/inc/customizer/layouts.php';
-
-		/**
 		 * Load additional site identity options
 		 *
 		 * @since 1.5.0
