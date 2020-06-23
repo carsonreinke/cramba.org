@@ -51,14 +51,6 @@ function primer_editor_frame_styles() {
 	wp_enqueue_style( Primer_Customizer::$stylesheet . '-editor-frame', get_template_directory_uri() . "/assets/css/admin/editor-frame{$suffix}.css", array(), PRIMER_VERSION, 'all' );
 	wp_enqueue_script( Primer_Customizer::$stylesheet . '-editor-frame', get_template_directory_uri() . "/assets/js/admin/editor-frame{$suffix}.js", array( 'jquery' ), PRIMER_VERSION, true );
 
-	wp_localize_script(
-		Primer_Customizer::$stylesheet . '-editor-frame',
-		'primerEditorFrame',
-		[
-			'layouts' => array_keys( $primer_customizer_layouts->__get( 'layouts' ) ),
-		]
-	);
-
 }
 add_action( 'enqueue_block_editor_assets', 'primer_editor_frame_styles' );
 
