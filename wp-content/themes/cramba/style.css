@@ -1531,19 +1531,19 @@ a img {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
 
 p.lead {
-  font-size: 1.34375rem;
+  font-size: 1.125rem;
   line-height: 1.6;
 }
 
 p aside {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 1.35;
   font-style: italic;
 }
@@ -1569,7 +1569,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 h1 {
   color: #202223;
-  font-size: 2.375rem;
+  font-size: 1.5rem;
   font-family: "Oxygen", "Open Sans", Arial, sans-serif;
   font-weight: 900;
 }
@@ -1812,10 +1812,10 @@ blockquote, blockquote p {
     line-height: 1.4;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h2 {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
   }
   h3 {
     font-size: 1.5rem;
