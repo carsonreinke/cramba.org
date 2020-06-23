@@ -5030,14 +5030,6 @@ body.woocommerce-cart .primer-wc-cart-sub-menu {
   background-image: url(/wp-content/uploads/2020/05/background-new.jpg);
 }
 
-.site-title a, .site-title a:visited {
-  color: #blank;
-}
-
-.site-title a:hover, .site-title a:visited:hover {
-  color: rgba(, 0.8);
-}
-
 .site-description {
   color: #ffffff;
 }
