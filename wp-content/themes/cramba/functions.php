@@ -511,8 +511,6 @@ function primer_scripts() {
 
 	wp_enqueue_style( $stylesheet, get_stylesheet_uri(), false, defined( 'PRIMER_CHILD_VERSION' ) ? PRIMER_CHILD_VERSION : PRIMER_VERSION );
 
-	wp_style_add_data( $stylesheet, 'rtl', 'replace' );
-
 	$nav_dependencies = ( is_front_page() && function_exists( 'has_header_video' ) && has_header_video() ) ? array( 'jquery', 'wp-custom-header' ) : array( 'jquery' );
 
 	// The interactivity of the menu in AMP is defined inline.
@@ -527,19 +525,6 @@ function primer_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 
 	}
-
-	if ( primer_has_hero_image() ) {
-
-		$css = sprintf(
-			SCRIPT_DEBUG ? '%s { background-image: url(%s); }' : '%s{background-image:url(%s);}',
-			primer_get_hero_image_selector(),
-			esc_url( primer_get_hero_image() )
-		);
-
-		wp_add_inline_style( $stylesheet, $css );
-
-	}
-
 }
 add_action( 'wp_enqueue_scripts', 'primer_scripts' );
 
