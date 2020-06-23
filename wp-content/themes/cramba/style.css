@@ -1576,7 +1576,7 @@ h1 {
 
 h2 {
   color: #8f8e8f;
-  font-size: 1.75rem;
+  font-size: 1.375rem;
   font-weight: 300;
 }
 
@@ -3575,8 +3575,7 @@ body.page-template-page-builder #primary, body.page-template-page-builder-no-hea
 
 @media only screen and (min-width: 61.063em) {
   .site-title {
-    font-size: 1.75rem;
-    font-size: 1.75rem;
+    font-size: 1.375rem;
   }
 }
 
