@@ -5026,6 +5026,7 @@ body.woocommerce-cart .primer-wc-cart-sub-menu {
 /*
  * Copied inline styles from editor
  */
+
 .site-header {
   background-image: url(/wp-content/uploads/2020/05/background-new.jpg);
 }
@@ -5228,4 +5229,12 @@ body {
 
 .main-navigation li li a:hover, .main-navigation li li a:visited:hover {
   background-color: rgba(0, 82, 136, 0.8);
+}
+
+/*
+* Hide header text (instead of inlining this with WordPress setting)
+*/
+.site-title, .site-description {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
 }
