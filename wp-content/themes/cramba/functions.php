@@ -516,6 +516,9 @@ function primer_scripts() {
 	// The interactivity of the menu in AMP is defined inline.
 	if ( ! primer_is_amp() ) {
 
+		//Add Modernizr for WebP support check
+		wp_enqueue_script( 'modernizr', get_template_directory_uri() . "/assets/js/modernizr.min.js" );
+
 		wp_enqueue_script( 'primer-navigation', get_template_directory_uri() . "/assets/js/navigation{$suffix}.js", $nav_dependencies, PRIMER_VERSION, true );
 
 	}
