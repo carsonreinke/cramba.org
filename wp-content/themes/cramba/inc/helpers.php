@@ -74,6 +74,14 @@ function primer_get_the_page_title() {
 				break;
 
 			}
+			//Singular post use the title of the post
+			else if( is_singular() ) {
+
+				$title = get_the_title();
+
+				break;
+
+			}
 
 			$labels = get_post_type_labels( get_post_type_object( $post->post_type ) );
 
