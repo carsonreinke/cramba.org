@@ -325,6 +325,7 @@ function primer_setup() {
 
 	}
 
+	add_filter( 'wp_resource_hints', 'cramba_resource_hints', 10, 2 );
 }
 add_action( 'after_setup_theme', 'primer_setup' );
 
@@ -712,6 +713,17 @@ function disable_emojis_remove_dns_prefetch( $urls, $relation_type ) {
 		$emoji_svg_url = apply_filters( 'emoji_svg_url', 'https://s.w.org/images/core/emoji/12.0.0-1/svg/' );
 
 		$urls = array_diff( $urls, array( $emoji_svg_url ) );
+	}
+
+	return $urls;
+}
+/**/
+
+function cramba_resource_hints( $urls, $relation_type ) {
+	switch($relation_type) {
+		case 'prefetch':
+			$urls[] = 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oxygen:wght@400;700&display=swap';
+		break;
 	}
 
 	return $urls;
