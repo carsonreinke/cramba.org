@@ -3779,12 +3779,12 @@ body.page-template-page-builder #primary, body.page-template-page-builder-no-hea
   margin-right: 0;
 }
 
-body.home .hero {
+body.home:not(.paged) .hero {
   padding: 175px 0;
 }
 
 @media only screen and (max-width: 40em) {
-  body.home .hero {
+  body.home:not(.paged) .hero {
     padding: 0;
   }
 }
