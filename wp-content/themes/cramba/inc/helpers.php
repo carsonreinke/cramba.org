@@ -21,6 +21,12 @@ function primer_get_the_page_title() {
 	$post  = get_queried_object();
 
 	switch ( true ) {
+		case is_front_page() && is_paged() :
+			$labels = get_post_type_labels( get_post_type_object( 'post' ) );
+
+			$title = isset( $labels->name ) ? $labels->name : false;
+
+			break;
 
 		case is_front_page() :
 
