@@ -5224,11 +5224,11 @@ body {
 }
 
 .main-navigation li li a, .menu-toggle:not( [style*="display: none"])+.main-navigation, .menu-toggle:not( [style*="display: none"])+.main-navigation .expand {
-  background-color: #005288;
+  background-color: #0d4d84;
 }
 
 .main-navigation li li a:hover, .main-navigation li li a:visited:hover {
-  background-color: rgba(0, 82, 136, 0.8);
+  background-color: rgba(13, 77, 132, 0.8);
 }
 
 /*
