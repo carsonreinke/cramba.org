@@ -2070,6 +2070,16 @@ a:hover, a:focus, a:active {
   .main-navigation-container {
     z-index: 9999;
   }
+
+  .menu-top-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 61.063em) {
+  .menu-mobile-container {
+    display: none;
+  }
 }
 
 .main-navigation {
@@ -2774,6 +2784,15 @@ body.no-max-width .main-navigation {
 .widget_recent_entries .post-date {
   font-size: 0.875rem;
   text-transform: uppercase;
+}
+
+/*
+ * Navigation menu widget
+ */
+@media only screen and (max-width: 61.063em) {
+  .widget_nav_menu {
+    display: none;
+  }
 }
 
 .sticky {

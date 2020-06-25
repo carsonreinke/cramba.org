@@ -139,6 +139,13 @@ function primer_add_primary_menu() {
 		)
 	);
 
+	//Specific mobile menu
+	wp_nav_menu(
+		array(
+			'menu' => 'Mobile'
+		)
+	);
+
 	remove_filter( 'walker_nav_menu_start_el', 'primer_add_primary_nav_sub_menu_buttons', 10 );
 }
 add_action( 'primer_site_navigation', 'primer_add_primary_menu' );
