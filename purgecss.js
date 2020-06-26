@@ -1,5 +1,8 @@
-const { resolve } = require('path');
-
+/*
+ * Purge unused CSS by crawling site
+ *
+ * `env URL=[Site to crawl] FILE=[CSS file to purge on] node purgecss.js`
+ */
 const PurgeCSS = require('purgecss').default,
     purgecssWordpress = require('purgecss-with-wordpress'),
     fs = require('fs'),
