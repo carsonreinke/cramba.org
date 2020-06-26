@@ -51,7 +51,11 @@ function crawl() {
             return { raw: content, extension: 'html' }
         }),
         css: [FILE],
-        whitelist: purgecssWordpress.whitelist,
+        whitelist: [
+            ...purgecssWordpress.whitelist,
+            'menu-toggle',
+            'open'
+        ],
         whitelistPatterns: purgecssWordpress.whitelistPatterns
     });
 
