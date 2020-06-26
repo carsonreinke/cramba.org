@@ -315,7 +315,7 @@
                     "files": [
                         "wp-includes\/css\/dist\/block-library\/style.min.css",
                         "wp-includes\/css\/dist\/block-library\/theme.min.css",
-                        "wp-content\/themes\/cramba\/style.css"
+                        "wp-content\/themes\/cramba\/style.min.css"
                     ]
                 }
             }
