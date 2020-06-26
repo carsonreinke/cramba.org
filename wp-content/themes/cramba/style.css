@@ -2409,21 +2409,6 @@ body.no-max-width .main-navigation {
   display: none;
 }
 
-@media only screen and (max-width: 40em) {
-  .navigation.pagination .paging-nav-text {
-    display: inline-block;
-    font-size: 0.9rem;
-    font-weight: normal;
-    color: #fff;
-  }
-  .navigation.pagination .nav-links {
-    float: right;
-  }
-  .navigation.pagination .nav-links .page-numbers {
-    display: none;
-  }
-}
-
 .comment-navigation .nav-previous, .paging-navigation .nav-previous, .post-navigation .nav-previous {
   float: left;
   width: 50%;
