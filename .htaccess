@@ -184,3 +184,8 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+# Block internal files
+<FilesMatch "^(package\.json|package-lock\.json|purgecss\.js)$">
+    Deny from all
+</FilesMatch>

@@ -326,6 +326,7 @@ function primer_setup() {
 	}
 
 	add_filter( 'wp_resource_hints', 'cramba_resource_hints', 10, 2 );
+	add_filter( 'stylesheet_uri', 'cramba_stylesheet_uri', 10, 2 );
 }
 add_action( 'after_setup_theme', 'primer_setup' );
 
@@ -727,4 +728,12 @@ function cramba_resource_hints( $urls, $relation_type ) {
 	}
 
 	return $urls;
+}
+
+function cramba_stylesheet_uri( $stylesheet_uri, $stylesheet_dir_uri ) {
+	if( !SCRIPT_DEBUG ) {
+		return $stylesheet_dir_uri . '/style.min.css';
+	}
+
+	return $stylesheet_uri;
 }
