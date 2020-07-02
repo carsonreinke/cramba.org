@@ -58,7 +58,7 @@
         "\\bsql_calc_found_rows\\b",
         "\\bfound_rows\\(\\)"
     ],
-    "lazyload.enabled": false,
+    "lazyload.enabled": true,
     "lazyload.process_img": true,
     "lazyload.process_background": true,
     "lazyload.googlemaps.google_maps_easy": false,
@@ -914,7 +914,7 @@
     "config.path": "",
     "widget.latest.items": 3,
     "widget.latest_news.items": 5,
-    "widget.pagespeed.enabled": true,
+    "widget.pagespeed.enabled": false,
     "widget.pagespeed.key": "",
     "widget.pagespeed.key.restrict.referrer": "",
     "widget.pagespeed.show_in_admin_bar": false,
@@ -932,9 +932,14 @@
     "common.instance_id": 1372345756,
     "common.force_master": true,
     "extensions.active": {
-        "fragmentcache": "w3-total-cache\/Extension_FragmentCache_Plugin.php"
+        "fragmentcache": "w3-total-cache\/Extension_FragmentCache_Plugin.php",
+        "user-experience-emoji": "w3-total-cache\/UserExperience_Emoji_Extension.php",
+        "user-experience-oembed": "w3-total-cache\/UserExperience_OEmbed_Extension.php"
     },
-    "extensions.active_frontend": [],
+    "extensions.active_frontend": {
+        "user-experience-emoji": "*",
+        "user-experience-oembed": "*"
+    },
     "extensions.active_dropin": [],
     "plugin.license_key": "",
     "plugin.type": "",
