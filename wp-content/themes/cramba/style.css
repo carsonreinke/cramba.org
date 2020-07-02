@@ -2070,7 +2070,6 @@ a:hover, a:focus, a:active {
   .main-navigation-container {
     z-index: 9999;
   }
-
   .menu-top-container {
     display: none;
   }
@@ -2174,7 +2173,6 @@ a:hover, a:focus, a:active {
 }
 
 .main-navigation li li {
-  text-indent: 1rem;
 }
 
 @media only screen and (max-width: 61.063em) {
@@ -2184,7 +2182,6 @@ a:hover, a:focus, a:active {
 }
 
 .main-navigation li li li {
-  text-indent: 1.5rem;
 }
 
 .main-navigation ul {
@@ -2273,8 +2270,13 @@ a:hover, a:focus, a:active {
 .main-navigation li li a {
   margin-left: 0;
   margin-right: 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   background-color: #1985a1;
   color: #fff;
+}
+
+.main-navigation li li li a {
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 @media only screen and (min-width: 61.063em) {
@@ -2774,6 +2776,7 @@ body.no-max-width .main-navigation {
 /*
  * Navigation menu widget
  */
+
 @media only screen and (max-width: 61.063em) {
   .widget_nav_menu {
     display: none;
@@ -5238,6 +5241,7 @@ body {
 /*
 * Hide header text (instead of inlining this with WordPress setting)
 */
+
 .site-title, .site-description {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
