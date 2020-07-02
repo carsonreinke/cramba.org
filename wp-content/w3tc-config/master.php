@@ -349,7 +349,6 @@
                         "wp-content\/plugins\/google-calendar-events\/assets\/js\/vendor\/jquery.qtip.min.js",
                         "wp-content\/plugins\/google-calendar-events\/assets\/js\/vendor\/moment.min.js",
                         "wp-content\/plugins\/google-calendar-events\/assets\/js\/vendor\/moment-timezone-with-data.min.js",
-                        "wp-includes\/js\/wp-embed.min.js",
                         "wp-content\/plugins\/google-calendar-events\/assets\/js\/default-calendar.min.js",
                         "wp-content\/plugins\/google-calendar-events\/assets\/js\/vendor\/imagesloaded.pkgd.min.js",
                         "wp-content\/themes\/cramba\/assets\/js\/navigation.min.js"
