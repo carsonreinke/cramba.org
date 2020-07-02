@@ -35,9 +35,11 @@ function crawl() {
             resolve(contents);
         });
         crawler.on('fetchclienterror', (_, error) => {
+            crawler.stop();
             reject(error);
         });
         crawler.on('fetchdataerror', (_, error) => {
+            crawler.stop();
             reject(error);
         });
         crawler.start();
@@ -45,23 +47,28 @@ function crawl() {
 }
 
 (async () => {
-    console.log(`Crawling ${URL}`);
-    const contents = await crawl();
+    try {
+        console.log(`Crawling ${URL}`);
+        const contents = await crawl();
 
-    console.log(`Purging ${FILE}`);
-    const files = await new PurgeCSS().purge({
-        content: contents.map((content) => {
-            return { raw: content, extension: 'html' }
-        }),
-        css: [FILE],
-        whitelist: [
-            ...purgecssWordpress.whitelist,
-            'menu-toggle',
-            'open'
-        ],
-        whitelistPatterns: purgecssWordpress.whitelistPatterns
-    });
+        console.log(`Purging ${FILE}`);
+        const files = await new PurgeCSS().purge({
+            content: contents.map((content) => {
+                return { raw: content, extension: 'html' }
+            }),
+            css: [FILE],
+            whitelist: [
+                ...purgecssWordpress.whitelist,
+                'menu-toggle',
+                'open'
+            ],
+            whitelistPatterns: purgecssWordpress.whitelistPatterns
+        });
 
-    console.log(`Writing ${OUTPUT}`)
-    await util.promisify(fs.writeFile)(OUTPUT, files[0].css);
+        console.log(`Writing ${OUTPUT}`)
+        await util.promisify(fs.writeFile)(OUTPUT, files[0].css);
+    }
+    catch (err) {
+        console.error(err);
+    }
 })();
