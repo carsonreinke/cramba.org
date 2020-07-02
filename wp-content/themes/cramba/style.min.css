@@ -319,7 +319,7 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, form, p, th, td {
 /* Default Link Styles */
 
 a {
-  color: #62d7db;
+  color: #0d4d84;
   text-decoration: none;
   line-height: inherit;
 }
@@ -569,7 +569,7 @@ button, a.button, input, select, textarea {
 }
 
 button, a.button, a.button:visited, input[type="button"], input[type="reset"], input[type="submit"] {
-  background: #62d7db;
+  background: #0d4d84;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -668,11 +668,11 @@ textarea {
 }
 
 a {
-  color: #62d7db;
+  color: #0d4d84;
 }
 
 a:visited {
-  color: #62d7db;
+  color: #0d4d84;
 }
 
 a:hover, a:focus, a:active {
@@ -1008,7 +1008,7 @@ a:hover, a:focus, a:active {
 
 .navigation.pagination .nav-links .page-numbers.current {
   color: #1985a1;
-  background-color: #62d7db;
+  background-color: #0d4d84;
 }
 
 .navigation.pagination .paging-nav-text {
@@ -1328,7 +1328,7 @@ a:hover, a:focus, a:active {
 }
 
 .entry-footer a {
-  color: #62d7db;
+  color: #0d4d84;
 }
 
 .entry-footer .entry-footer-right {
@@ -1569,7 +1569,7 @@ body.page-template-page-builder #primary, body.page-template-page-builder-no-hea
 
 .site-header {
   letter-spacing: -.01em;
-  background: #62d7db;
+  background: #0d4d84;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center top;
