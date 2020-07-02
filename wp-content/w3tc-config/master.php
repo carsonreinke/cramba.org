@@ -300,12 +300,12 @@
         "google_ad_",
         "RSPEAK_"
     ],
-    "minify.css.combine": true,
+    "minify.css.combine": false,
     "minify.css.enable": true,
     "minify.css.engine": "css",
     "minify.css.http2push": false,
     "minify.css.strip.comments": false,
-    "minify.css.strip.crlf": false,
+    "minify.css.strip.crlf": true,
     "minify.css.embed": false,
     "minify.css.imports": "",
     "minify.css.groups": {
@@ -315,7 +315,10 @@
                     "files": [
                         "wp-includes\/css\/dist\/block-library\/style.min.css",
                         "wp-includes\/css\/dist\/block-library\/theme.min.css",
-                        "wp-content\/themes\/cramba\/style.min.css"
+                        "wp-content\/themes\/cramba\/style.min.css",
+                        "wp-content\/plugins\/google-calendar-events\/assets\/css\/vendor\/jquery.qtip.min.css",
+                        "wp-content\/plugins\/google-calendar-events\/assets\/css\/default-calendar-grid.min.css",
+                        "wp-content\/plugins\/google-calendar-events\/assets\/css\/default-calendar-list.min.css"
                     ]
                 }
             }
@@ -343,6 +346,12 @@
                 },
                 "include-footer": {
                     "files": [
+                        "wp-content\/plugins\/google-calendar-events\/assets\/js\/vendor\/jquery.qtip.min.js",
+                        "wp-content\/plugins\/google-calendar-events\/assets\/js\/vendor\/moment.min.js",
+                        "wp-content\/plugins\/google-calendar-events\/assets\/js\/vendor\/moment-timezone-with-data.min.js",
+                        "wp-includes\/js\/wp-embed.min.js",
+                        "wp-content\/plugins\/google-calendar-events\/assets\/js\/default-calendar.min.js",
+                        "wp-content\/plugins\/google-calendar-events\/assets\/js\/vendor\/imagesloaded.pkgd.min.js",
                         "wp-content\/themes\/cramba\/assets\/js\/navigation.min.js"
                     ]
                 }
