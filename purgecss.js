@@ -48,6 +48,8 @@ function crawl() {
 
 (async () => {
     try {
+        console.log(`Purging ${FILE} into ${OUTPUT} using content found at ${URL}`);
+
         console.log(`Crawling ${URL}`);
         const contents = await crawl();
 

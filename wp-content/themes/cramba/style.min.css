@@ -456,7 +456,7 @@ table th, table td {
 /* Lists */
 
 ul, ol, dl {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
@@ -1392,6 +1392,16 @@ a:hover, a:focus, a:active {
   border-bottom-width: 0;
 }
 
+.more-link {
+  font-family: "Oxygen", "Open Sans", Arial, sans-serif;
+  font-weight: normal;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #0d4d84;
+  padding: .5em 1em;
+  padding: .5rem 1rem;
+}
+
 /* Comments */
 
 /*
@@ -1623,6 +1633,7 @@ body.page-template-page-builder #primary, body.page-template-page-builder-no-hea
 }
 
 .site-header-wrapper .hero {
+  margin-left: 0;
   margin-right: 0;
 }
 
@@ -1630,9 +1641,17 @@ body.home:not(.paged) .hero {
   padding: 175px 0;
 }
 
+body.home:not(.paged) .site-header {
+  background-size: auto 540px;
+}
+
 @media only screen and (max-width: 40em) {
   body.home:not(.paged) .hero {
     padding: 0;
+  }
+
+  body.home:not(.paged) .site-header {
+    background-size: cover;
   }
 }
 
@@ -1938,7 +1957,7 @@ body {
 }
 
 .site-header {
-  background-color: #141414;
+  background-color: #363e4e;
 }
 
 .site-header {

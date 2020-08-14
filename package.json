@@ -11,5 +11,8 @@
     "purgecss": "^2.3.0",
     "purgecss-with-wordpress": "^2.3.0",
     "simplecrawler": "^1.1.9"
+  },
+  "scripts": {
+    "purgecss": "env FILE=./wp-content/themes/cramba/style.css node purgecss.js"
   }
 }
