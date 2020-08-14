@@ -19,7 +19,7 @@
 
 	<?php endif; ?>
 
-	<?php if ( is_single() ) : ?>
+	<?php if ( is_home() || is_single() ) : ?>
 
 		<?php get_template_part( 'templates/parts/loop/post', 'content' ); ?>
 
