@@ -3764,6 +3764,7 @@ body.page-template-page-builder #primary, body.page-template-page-builder-no-hea
 }
 
 .site-header-wrapper .hero {
+  margin-left: 0;
   margin-right: 0;
 }
 
@@ -3771,9 +3772,17 @@ body.home:not(.paged) .hero {
   padding: 175px 0;
 }
 
+body.home:not(.paged) .site-header {
+  background-size: auto 540px;
+}
+
 @media only screen and (max-width: 40em) {
   body.home:not(.paged) .hero {
     padding: 0;
+  }
+
+  body.home:not(.paged) .site-header {
+    background-size: cover;
   }
 }
 
@@ -5168,7 +5177,7 @@ body {
 }
 
 .site-header {
-  background-color: #141414;
+  background-color: #363e4e;
 }
 
 .site-header {
