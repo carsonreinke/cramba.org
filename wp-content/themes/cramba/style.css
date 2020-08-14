@@ -1683,7 +1683,7 @@ table th, table td {
 /* Lists */
 
 ul, ol, dl {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
