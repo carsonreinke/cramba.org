@@ -86,7 +86,8 @@
         "swatch-img",
         "w3-total-cache",
         "woocommerce\/assets\/images\/placeholder.png",
-        "wpcf7_captcha"
+        "wpcf7_captcha",
+        "custom-logo"
     ],
     "lazyload.embed_method": "async_head",
     "objectcache.configuration_overloaded": false,
