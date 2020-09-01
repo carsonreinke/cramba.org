@@ -2320,6 +2320,12 @@ body.no-max-width .main-navigation {
   max-width: none;
 }
 
+/*Pad mobile menu only on iOS*/
+.menu-mobile-container {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
 .menu-toggle {
   width: 3.6rem;
   padding: 0.3rem;

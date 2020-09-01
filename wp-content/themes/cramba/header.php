@@ -16,7 +16,7 @@
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
