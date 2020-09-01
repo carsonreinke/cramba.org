@@ -926,6 +926,12 @@ a:hover, a:focus, a:active {
   border-left-color: #fff;
 }
 
+/*Pad mobile menu only on iOS*/
+.menu-mobile-container {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
 .menu-toggle {
   width: 3.6rem;
   padding: 0.3rem;
