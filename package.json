@@ -8,7 +8,7 @@
   },
   "license": "GPL",
   "devDependencies": {
-    "purgecss": "^2.3.0",
+    "purgecss": "^5.0.0",
     "purgecss-with-wordpress": "^2.3.0",
     "simplecrawler": "^1.1.9"
   },
